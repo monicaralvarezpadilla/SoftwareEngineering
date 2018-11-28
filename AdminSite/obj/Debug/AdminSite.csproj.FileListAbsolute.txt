@@ -1,0 +1,190 @@
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\ApplicationInsights.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\AdminSite.dll.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\AdminSite.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\AdminSite.pdb
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csc.exe
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csc.exe.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csc.rsp
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csi.exe
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csi.exe.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\csi.rsp
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.CSharp.Core.targets
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.AppContext.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Collections.Immutable.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Console.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.Process.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.IO.Compression.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.IO.Pipes.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Reflection.Metadata.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.AccessControl.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Claims.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Security.Principal.Windows.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Threading.Thread.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.ValueTuple.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Xml.ReaderWriter.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Xml.XmlDocument.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Xml.XPath.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\vbc.exe
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\vbc.exe.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\vbc.rsp
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\VBCSCompiler.exe
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\roslyn\VBCSCompiler.exe.config
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Antlr3.Runtime.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\EntityFramework.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\EntityFramework.SqlServer.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.Agent.Intercept.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.DependencyCollector.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.PerfCounterCollector.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.Web.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.WindowsServer.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.ApplicationInsights.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.Web.Infrastructure.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Newtonsoft.Json.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Helpers.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Mvc.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Optimization.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Razor.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.Deployment.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.Razor.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\WebGrease.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\EntityFramework.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\EntityFramework.SqlServer.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Helpers.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Mvc.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Optimization.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.Razor.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.Deployment.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\System.Web.WebPages.Razor.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Antlr3.Runtime.pdb
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Newtonsoft.Json.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.ApplicationInsights.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.DependencyCollector.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.WindowsServer.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\bin\Microsoft.AI.Web.xml
+c:\users\tseve\source\repos\AdminSite\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+c:\users\tseve\source\repos\AdminSite\AdminSite\obj\Debug\AdminSite.csproj.CoreCompileInputs.cache
+c:\users\tseve\source\repos\AdminSite\AdminSite\obj\Debug\AdminSite.csproj.CopyComplete
+c:\users\tseve\source\repos\AdminSite\AdminSite\obj\Debug\AdminSite.dll
+c:\users\tseve\source\repos\AdminSite\AdminSite\obj\Debug\AdminSite.pdb
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\ApplicationInsights.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\AdminSite.dll.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\AdminSite.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\AdminSite.pdb
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csc.exe
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csc.exe.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csc.rsp
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csi.exe
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csi.exe.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\csi.rsp
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.AppContext.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Console.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.IO.Compression.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.IO.Pipes.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Claims.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Threading.Thread.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.ValueTuple.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Xml.XPath.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\vbc.exe
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\vbc.exe.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\vbc.rsp
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\VBCSCompiler.exe
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Antlr3.Runtime.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\EntityFramework.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\EntityFramework.SqlServer.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.Web.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.ApplicationInsights.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Newtonsoft.Json.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Helpers.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Mvc.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Optimization.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Razor.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.Deployment.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.Razor.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\WebGrease.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\EntityFramework.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\EntityFramework.SqlServer.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Helpers.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Mvc.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Optimization.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.Razor.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.Deployment.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\System.Web.WebPages.Razor.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Antlr3.Runtime.pdb
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Newtonsoft.Json.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.ApplicationInsights.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\bin\Microsoft.AI.Web.xml
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\obj\Debug\AdminSite.csprojResolveAssemblyReference.cache
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\obj\Debug\AdminSite.csproj.CoreCompileInputs.cache
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\obj\Debug\AdminSite.csproj.CopyComplete
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\obj\Debug\AdminSite.dll
+C:\Users\Monica\Desktop\Software Engineering Project\AdminSite\AdminSite\obj\Debug\AdminSite.pdb

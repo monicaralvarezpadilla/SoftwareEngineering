@@ -1,0 +1,88 @@
+﻿@model AdminSite.Models.Account
+@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    @*<style>
+        .feed {
+            border-radius: 10px;
+            background-color: #f2f2f2;
+            padding: 10px;
+        }
+
+        .columnMID {
+            float: left;
+            width: 37%;
+            padding: 10px;
+        }
+
+        .row:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        @@media screen and (max-width: 1300px) {
+            .columnMID {
+                width: 100%;
+            }
+        }
+    </style>*@
+</head>
+<body>
+
+    <h2 style="text-align:center">Admin Login</h2>
+
+    <div id="login-div">
+        @using (Html.BeginForm("Authorize", "Login", FormMethod.Post))
+        {
+            <div class="row">
+                <div class="columnMID" style="width:29%"></div>
+                <div class="columnMID">
+                    <div class="feed">
+                        <table style="margin:auto">
+                            <tr>
+                                <td>
+                                    User ID
+                                </td>
+                                <td>
+                                    @Html.TextBoxFor(model => model.Username)
+                                </td>
+                                <td>@Html.ValidationMessageFor(model => model.Username)</td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    Password
+                                </td>
+                                <td>
+                                    @Html.PasswordFor(model => model.Password)
+                                </td>
+                                <td>@Html.ValidationMessageFor(model => model.Password)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <label class="field-validation-error">@Html.Display("Login Error")</label>
+                                </td>
+                                <td></td>
+                                <td>
+                                    <input type="submit" name="name" value="login" />
+                                    <input type="reset" name="name" value="clear" />
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+                <div class="columnMID"></div>
+            </div>
+        }
+    </div>
+
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/jquery.validate.min.js"></script>
+    <script src="~/Scripts/jquery.validate.unobtrusive.min.js"></script>
+</body>
+</html>
+

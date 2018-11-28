@@ -1,0 +1,41 @@
+﻿
+@model AdminSite.Models.Account
+@{
+    ViewBag.Title = "Dashboard";
+}
+
+@if (Session["UserID"] != null)
+{
+    <div class="jumbotron">
+        Welcome @Html.DisplayFor(model => model.FirstName)!
+    </div>
+
+    <div class="row">
+        <h2>Links</h2>
+        <table class="table">
+            @foreach (var role in Model.AssociateRoles.ToList())
+            {
+                <tr>
+                    <th>
+                        @Html.DisplayFor(modelItem => role.UserRole.RoleName)
+                    </th>
+                </tr>
+                foreach (var link in role.UserRole.AssociateLinks)
+                {
+
+                    <tr>
+                        <td>
+                            <a href="http://@link.Link.URL">@link.Link.LinkName</a>
+                        </td>
+                    </tr>
+                }
+            }
+        </table>
+    </div>
+}
+else
+{
+    <div class="jumbotron">
+        Please @Html.ActionLink("login", "Index", "Login") to view links
+    </div>
+}

@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="AdminPortalDataModelStoreContainer" CdmEntityContainer="AdminPortalDataEntities2">
+    <EntitySetMapping Name="Accounts">
+      <EntityTypeMapping TypeName="AdminPortalDataModel.Account">
+        <MappingFragment StoreEntitySet="Account">
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="FirstName" ColumnName="FirstName" />
+          <ScalarProperty Name="LastName" ColumnName="LastName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AssociateLinks">
+      <EntityTypeMapping TypeName="AdminPortalDataModel.AssociateLink">
+        <MappingFragment StoreEntitySet="AssociateLinks">
+          <ScalarProperty Name="AssociateLinkID" ColumnName="AssociateLinkID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="LinkID" ColumnName="LinkID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="AssociateRoles">
+      <EntityTypeMapping TypeName="AdminPortalDataModel.AssociateRole">
+        <MappingFragment StoreEntitySet="AssociateRoles">
+          <ScalarProperty Name="AssociateRoleID" ColumnName="AssociateRoleID" />
+          <ScalarProperty Name="AccountID" ColumnName="AccountID" />
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Links">
+      <EntityTypeMapping TypeName="AdminPortalDataModel.Link">
+        <MappingFragment StoreEntitySet="Link">
+          <ScalarProperty Name="LinkID" ColumnName="LinkID" />
+          <ScalarProperty Name="URL" ColumnName="URL" />
+          <ScalarProperty Name="LinkName" ColumnName="LinkName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="UserRoles">
+      <EntityTypeMapping TypeName="AdminPortalDataModel.UserRole">
+        <MappingFragment StoreEntitySet="UserRole">
+          <ScalarProperty Name="RoleID" ColumnName="RoleID" />
+          <ScalarProperty Name="RoleName" ColumnName="RoleName" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

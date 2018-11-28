@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AdminPortalDataModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Account">
+    <Key>
+      <PropertyRef Name="AccountID" />
+    </Key>
+    <Property Name="AccountID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Username" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="Password" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="FirstName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LastName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AssociateRoles" Relationship="Self.FK_dbo_AssociateRoles_dbo_Role_Account" FromRole="Account" ToRole="AssociateRoles" />
+  </EntityType>
+  <EntityType Name="AssociateLink">
+    <Key>
+      <PropertyRef Name="AssociateLinkID" />
+    </Key>
+    <Property Name="AssociateLinkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <Property Name="LinkID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Link" Relationship="Self.FK_dbo_AssociateLinks_dbo_Link_Link" FromRole="AssociateLinks" ToRole="Link" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK_dbo_AssociateLinks_dbo_Link_Role" FromRole="AssociateLinks" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="AssociateRole">
+    <Key>
+      <PropertyRef Name="AssociateRoleID" />
+    </Key>
+    <Property Name="AssociateRoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="AccountID" Type="Int32" Nullable="false" />
+    <Property Name="RoleID" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Account" Relationship="Self.FK_dbo_AssociateRoles_dbo_Role_Account" FromRole="AssociateRoles" ToRole="Account" />
+    <NavigationProperty Name="UserRole" Relationship="Self.FK_dbo_AssociateRoles_dbo_Role_Role" FromRole="AssociateRoles" ToRole="UserRole" />
+  </EntityType>
+  <EntityType Name="Link">
+    <Key>
+      <PropertyRef Name="LinkID" />
+    </Key>
+    <Property Name="LinkID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="URL" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" Nullable="false" />
+    <Property Name="LinkName" Type="String" MaxLength="150" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AssociateLinks" Relationship="Self.FK_dbo_AssociateLinks_dbo_Link_Link" FromRole="Link" ToRole="AssociateLinks" />
+  </EntityType>
+  <EntityType Name="UserRole">
+    <Key>
+      <PropertyRef Name="RoleID" />
+    </Key>
+    <Property Name="RoleID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="RoleName" Type="String" MaxLength="50" FixedLength="false" Unicode="true" Nullable="false" />
+    <NavigationProperty Name="AssociateLinks" Relationship="Self.FK_dbo_AssociateLinks_dbo_Link_Role" FromRole="UserRole" ToRole="AssociateLinks" />
+    <NavigationProperty Name="AssociateRoles" Relationship="Self.FK_dbo_AssociateRoles_dbo_Role_Role" FromRole="UserRole" ToRole="AssociateRoles" />
+  </EntityType>
+  <Association Name="FK_dbo_AssociateRoles_dbo_Role_Account">
+    <End Role="Account" Type="Self.Account" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AssociateRoles" Type="Self.AssociateRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Account">
+        <PropertyRef Name="AccountID" />
+      </Principal>
+      <Dependent Role="AssociateRoles">
+        <PropertyRef Name="AccountID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AssociateLinks_dbo_Link_Link">
+    <End Role="Link" Type="Self.Link" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AssociateLinks" Type="Self.AssociateLink" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Link">
+        <PropertyRef Name="LinkID" />
+      </Principal>
+      <Dependent Role="AssociateLinks">
+        <PropertyRef Name="LinkID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AssociateLinks_dbo_Link_Role">
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AssociateLinks" Type="Self.AssociateLink" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="AssociateLinks">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_dbo_AssociateRoles_dbo_Role_Role">
+    <End Role="UserRole" Type="Self.UserRole" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="AssociateRoles" Type="Self.AssociateRole" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="UserRole">
+        <PropertyRef Name="RoleID" />
+      </Principal>
+      <Dependent Role="AssociateRoles">
+        <PropertyRef Name="RoleID" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="AdminPortalDataEntities2" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Accounts" EntityType="Self.Account" />
+    <EntitySet Name="AssociateLinks" EntityType="Self.AssociateLink" />
+    <EntitySet Name="AssociateRoles" EntityType="Self.AssociateRole" />
+    <EntitySet Name="Links" EntityType="Self.Link" />
+    <EntitySet Name="UserRoles" EntityType="Self.UserRole" />
+    <AssociationSet Name="FK_dbo_AssociateRoles_dbo_Role_Account" Association="Self.FK_dbo_AssociateRoles_dbo_Role_Account">
+      <End Role="Account" EntitySet="Accounts" />
+      <End Role="AssociateRoles" EntitySet="AssociateRoles" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AssociateLinks_dbo_Link_Link" Association="Self.FK_dbo_AssociateLinks_dbo_Link_Link">
+      <End Role="Link" EntitySet="Links" />
+      <End Role="AssociateLinks" EntitySet="AssociateLinks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AssociateLinks_dbo_Link_Role" Association="Self.FK_dbo_AssociateLinks_dbo_Link_Role">
+      <End Role="UserRole" EntitySet="UserRoles" />
+      <End Role="AssociateLinks" EntitySet="AssociateLinks" />
+    </AssociationSet>
+    <AssociationSet Name="FK_dbo_AssociateRoles_dbo_Role_Role" Association="Self.FK_dbo_AssociateRoles_dbo_Role_Role">
+      <End Role="UserRole" EntitySet="UserRoles" />
+      <End Role="AssociateRoles" EntitySet="AssociateRoles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
