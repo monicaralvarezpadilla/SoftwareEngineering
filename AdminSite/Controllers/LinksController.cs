@@ -12,7 +12,7 @@ namespace AdminSite.Controllers
 {
     public class LinksController : Controller
     {
-        private AdminPortalDataEntities2 db = new AdminPortalDataEntities2();
+        private AdminPortalData db = new AdminPortalData();
 
         // GET: Links
         public ActionResult Index()

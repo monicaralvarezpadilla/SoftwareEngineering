@@ -12,7 +12,7 @@ namespace AdminSite.Controllers
 {
     public class AccountController : Controller
     {
-        private AdminPortalDataEntities2 db = new AdminPortalDataEntities2();
+        private AdminPortalData db = new AdminPortalData();
 
         // GET: Account
         public ActionResult Index()

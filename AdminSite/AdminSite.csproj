@@ -187,6 +187,15 @@
     <Compile Include="Models\Link.cs">
       <DependentUpon>AdminPortalData.tt</DependentUpon>
     </Compile>
+    <Compile Include="Models\sp_helpdiagramdefinition_Result.cs">
+      <DependentUpon>AdminPortalData.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sp_helpdiagrams_Result.cs">
+      <DependentUpon>AdminPortalData.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\sysdiagram.cs">
+      <DependentUpon>AdminPortalData.tt</DependentUpon>
+    </Compile>
     <Compile Include="Models\UserRole.cs">
       <DependentUpon>AdminPortalData.tt</DependentUpon>
     </Compile>

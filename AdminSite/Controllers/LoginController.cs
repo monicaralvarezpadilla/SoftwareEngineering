@@ -17,7 +17,7 @@ namespace AdminSite.Controllers
         [HttpPost]
         public ActionResult Authorize(AdminSite.Models.Account user)
         {
-            using (AdminSite.Models.AdminPortalDataEntities2 db = new AdminSite.Models.AdminPortalDataEntities2())
+            using (AdminSite.Models.AdminPortalData db = new AdminSite.Models.AdminPortalData())
             {
                 var userDetails = db.Accounts.Where(x => x.Username == user.Username && x.Password == user.Password).FirstOrDefault();
                 if (userDetails == null)

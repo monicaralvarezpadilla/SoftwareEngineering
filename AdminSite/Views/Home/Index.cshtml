@@ -12,12 +12,14 @@
 
     <div class="row">
         <h2>Links</h2>
-        <table class="table">
+        <table style="width:100%">
             @foreach (var role in Model.AssociateRoles.ToList())
             {
                 <tr>
                     <th>
-                        @Html.DisplayFor(modelItem => role.UserRole.RoleName)
+                        <h4>
+                            @Html.DisplayFor(modelItem => role.UserRole.RoleName)
+                        </h4>
                     </th>
                 </tr>
                 foreach (var link in role.UserRole.AssociateLinks)

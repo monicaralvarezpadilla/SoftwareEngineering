@@ -10,7 +10,7 @@ namespace AdminSite.Controllers
 {
     public class HomeController : Controller
     {
-        private AdminPortalDataEntities2 db = new AdminPortalDataEntities2();
+        private AdminPortalData db = new AdminPortalData();
         public ActionResult Index()
         {
             if (Session["UserID"] == null)

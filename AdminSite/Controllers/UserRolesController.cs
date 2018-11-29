@@ -12,7 +12,7 @@ namespace AdminSite.Controllers
 {
     public class UserRolesController : Controller
     {
-        private AdminPortalDataEntities2 db = new AdminPortalDataEntities2();
+        private AdminPortalData db = new AdminPortalData();
 
         // GET: UserRoles
         public ActionResult Index()

@@ -4,11 +4,12 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="2ae6403fbfcc41e79a36f10a6b9c0f82" Name="Diagram1">
+      <Diagram DiagramId="e533f90313d7423795cce3b39c8488b1" Name="Diagram1">
         <EntityTypeShape EntityType="AdminPortalDataModel.Account" Width="1.5" PointX="0.75" PointY="6.625" IsExpanded="true" />
         <EntityTypeShape EntityType="AdminPortalDataModel.AssociateLink" Width="1.5" PointX="3" PointY="3.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AdminPortalDataModel.AssociateRole" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
         <EntityTypeShape EntityType="AdminPortalDataModel.Link" Width="1.5" PointX="0.75" PointY="0.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="AdminPortalDataModel.sysdiagram" Width="1.5" PointX="5.75" PointY="2.125" IsExpanded="true" />
         <EntityTypeShape EntityType="AdminPortalDataModel.UserRole" Width="1.5" PointX="0.75" PointY="3.875" IsExpanded="true" />
         <AssociationConnector Association="AdminPortalDataModel.FK_dbo_AssociateRoles_dbo_Role_Account" ManuallyRouted="false" />
         <AssociationConnector Association="AdminPortalDataModel.FK_dbo_AssociateLinks_dbo_Link_Link" ManuallyRouted="false" />
